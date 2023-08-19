@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up page</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        } 
+        h4{
+            color: white;
+            padding: 4px;
+        }
+        .head{
+            display: flex;
+            justify-content: space-between;
+            background-color: blueviolet;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            margin-right: 4%;
+        }
+        h1{
+            background-color: rgb(255, 255, 255);
+            font-size: 2rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        } 
+       form{
+        width: 30%;
+        height: 400px;
+        background-color: white;
+        box-shadow: 0px 0px 10px 0px black;
+       } 
+            input{
+                width: 60%;
+                height: 30px;
+                
+            }
+       button{
+        background-color: blueviolet;
+        color: white;
+        width: 20%;
+        border: none;
+        border-radius: 5%;
+        height: 30px;
+        margin-top: 2%;
+       }
+       button:hover{
+        cursor: pointer;
+       }
+    </style>
+</head>
+<body>
+<div class="head">
+    <h4>Personal Blogging app</h4>
+     <a href="../html/signin.html">Sign In</a>
+</div>    
+<div class="ac"><h1>Sign Up</h1></div>
+<br>
+<style>
+    .ac{
+        text-align: center;
+        margin-top: 100px;
+    }
+</style>
+<center>
+  <form action="">
+    <br><br>
+    <input type="text" name="" id="firstname" placeholder="First Name" required><br><br>
+    <input type="text" name="" id="lastname" placeholder="Last Name" required><br><br>
+    <input type="text" name="" id="username" placeholder="Email" required><br><br>
+    <input type="password" name="" id="pass" placeholder="Password" required><br><br>
+    <input type="password" name="" id="pass" placeholder="Repeat password" required><br>
+
+   <div class="ad"> <button onclick="fun1()"><a href="../html/signin.html">Sign Up</a></button></div>
+  </form>
+  <style>
+    .ad{
+        padding: 30px;
+    }
+  </style>
+</center>
+<script src="app.js" type="module"></script>
+</body>
+</html>
+
+
+
